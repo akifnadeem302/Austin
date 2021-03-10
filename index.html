@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fa5bc9f634.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="position: sticky;top: 0;z-index: 10;background-color: #f8f9fa">
+        <div class="container">
+            <a href="#" class="navbar-brand text-seconsary" style="color: #1C5C93;font-size: 25px;">
+                M A M B A
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav"
+             aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Service</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Team</a></li>
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown2</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown4</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown5</a></li>
+                        </ul>
+                    </div>
+                    <li class="navbar-item"><a href="#" class="nav-link text-secondary">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/slide/slide-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: gray;">Wellcome To MAMBA</h1>
+                    <p style="color: gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, quisquam. <br>
+                        Voluptates veritatis ipsa, reiciendis natus odio doloribus maiores maxime veniam similique eum,
+                        <br> impedit praesentium sint.</p>
+                    <button class="btn"
+                        style="border: none;outline: none;font-size: 18px;background-color: #1C5C93;height: 40px;width: 120px;border-radius: 5px;color:white;">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/slide/slide-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: gray;">Wellcome To MAMBA</h1>
+                    <p style="color: gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, quisquam. <br>
+                        Voluptates veritatis ipsa, reiciendis natus odio doloribus maiores maxime veniam similique eum,
+                        <br> impedit praesentium sint.</p>
+                    <button class="btn"
+                        style="border: none;outline: none;font-size: 18px;background-color: #1C5C93;height: 40px;width: 120px;border-radius: 5px;color:white;">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/slide/slide-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: gray;">Wellcome To MAMBA</h1>
+                    <p style="color: gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, quisquam. <br>
+                        Voluptates veritatis ipsa, reiciendis natus odio doloribus maiores maxime veniam similique eum,
+                        <br> impedit praesentium sint.</p>
+                    <button class="btn"
+                        style="border: none;outline: none;font-size: 18px;background-color: #1C5C93;height: 40px;width: 120px;border-radius: 5px;color:white;">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="card mb-3 mx-auto contain"
+            style="max-width: 1500px;margin-top: 100px;box-shadow: 0px 0px 5px 5px silver;">
+            <div class="row g-0">
+                <div class="col-md-4 div1">
+                    <img src="./img/about.jpg" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bold" style="text-align: center; color: #1C5C93;">ABOUT US</h1>
+                        <p class="card-text" style="text-align: center;">Magnam dolores commodi suscipit. Necessitatibus
+                            eius consequatur <br>ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+                            <br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+                        <div class="card mb-3 iconh mx-auto" style="max-width: 540px;max-height: 100px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 iconf" style="max-height: 100px;">
+                                    <i class="fas fa-fingerprint"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Lorum Ipsum</h5>
+                                        <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas
+                                            molestias
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 iconh mx-auto" style="max-width: 540px;max-height: 100px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 iconf" style="max-height: 100px;">
+                                    <i class="fas fa-gift"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Nemo Enim</h5>
+                                        <p class="card-text">This is a wider card with supporting text below.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto" style="margin-top: 10vh;">
+        <div class="row">
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue;border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">01</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">02</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">03</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue;border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">04</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">05</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+          <div class="col-md"
+            style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+            <p class="h4" style="color: skyblue;">06</p>
+            <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+            <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+              Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5" style=" background-color: #F5F9FC; padding-bottom: 10vh;">
+        <div class="container-fluid mx-auto">
+          <div class="row mx-auto">
+            <div class="col-md-2 mx-auto"
+              style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+              <h2 class="mx-auto"
+                style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">232
+              </h2>
+              <p class="mx-auto" style="text-align: center;"> Happy Clients</p>
+            </div>
+            <div class="col-md-2 mx-auto"
+              style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+              <h2 class="mx-auto"
+                style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">521
+              </h2>
+              <p class="mx-auto" style="text-align: center;"> Projects</p>
+            </div>
+            <div class="col-md-2 mx-auto"
+              style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+              <h2 class="mx-auto"
+                style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">1463
+              </h2>
+              <p class="mx-auto" style="text-align: center;"> Hours of Work</p>
+            </div>
+            <div class="col-md-2 mx-auto"
+              style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+              <h2 class="mx-auto"
+                style="text-align: center;  margin-top: 30px;  color: #1C5C93; font-size: 3rem; font-weight: bolder;">15
+              </h2>
+              <p class="mx-auto" style="text-align: center;"> Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-md-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 mx-md-auto">
+              <h2 style=" text-align: center; color: rgb(53, 53, 53);">Services</h2>
+            </div>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-3 mx-auto">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="far fa-comment-dots"
+                      style="margin-left: 21px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+                <div class="col-md-3 mx-auto">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="fas fa-people-carry"
+                      style="margin-left: 17px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+                <div class="col-md-3 mx-auto">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="fas fa-globe"
+                      style="margin-left: 21px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-3 mx-auto">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="fas fa-broadcast-tower"
+                      style="margin-left: 19px; line-height: 80px; font-size: 2.2rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+                <div class="col-md-3 mx-auto">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="far fa-sun"
+                      style="margin-left: 20px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+                <div class="col-md-3 mx-auto ">
+                  <div class="rounded-circle mx-auto circ">
+                    <i class="far fa-calendar-minus"
+                      style="margin-left: 25px; line-height: 80px; font-size: 2.3rem; color: #1c5c93;"></i>
+                  </div>
+                  <p class="h4 ph">Lorem Ipsum</p>
+                  <hr class="dropdown-divider w-25 mx-auto mt-3">
+                  <p class="h6" style="font-weight: lighter; text-align: center;">
+                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                    non provident
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 pb-5" style="background-color: #F5F9FC;">
+        <div class="container">
+          <div class="mx-auto" style="text-align: center; color: #1C5C93;">
+            <h1>Our Portfolio</h1>
+            <p class="h6 mt-md-2 mt-sm-3"
+              style="text-align: center; color: black; letter-spacing: 1.1px; font-family: calibri; font-size: 1.1rem;">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+              in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <!-- Button section started -->
+          <div class="container mt-5">
+            <div class="row mx-auto">
+              <div class="col-2 mx-auto">
+                <button type="button" class="btn btn-outline-primary active all">ALL</button>
+              </div>
+              <div class="col-2 mx-auto">
+                <button type="button" class="btn btn-outline-primary app">APP</button>
+              </div>
+              <div class="col-2 mx-auto">
+                <button type="button" class="btn btn-outline-primary cardvi">CARD</button>
+              </div>
+              <div class="col-2 mx-auto">
+                <button type="button" class="btn btn-outline-primary webvi">WEB</button>
+              </div>
+            </div>
+          </div>
+          <!-- Button section ended -->
+        </div>
+        <!-- Images section of portfolio started -->
+        <div class="container mt-5 flew">
+          <div class="container-fluid">
+            <div class="row" style="overflow: hidden;">
+              <div class="col-md-3 ml-1 mt-2 mx-auto port1">
+                <div class="hov">
+                  <p class="h3" style="color: white;">App 1</p>
+                  <p class="h6" style="color: white;">App</p>
+                  <div class="cir">
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-plus iii"></i>
+                    </div>
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-unlink iii"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 ml-1 mt-2 mx-auto port1 port2">
+                <div class="hov">
+                  <p class="h3" style="color: white;">App 2</p>
+                  <p class="h6" style="color: white;">App</p>
+                  <div class="cir">
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-plus iii"></i>
+                    </div>
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-unlink iii"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 ml-1 mt-2 mx-auto port1 port3">
+                <div class="hov">
+                  <p class="h3" style="color: white;">App 3</p>
+                  <p class="h6" style="color: white;">App</p>
+                  <div class="cir">
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-plus iii"></i>
+                    </div>
+                    <div class="rounded-circle mx-auto iho">
+                      <i class="fas fa-unlink iii"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="container-fluid">
+              <div class="row" style="overflow: hidden;">
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port4">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 4</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port5">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 5</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port6">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 6</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <div class="container-fluid">
+              <div class="row" style="overflow: hidden;">
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port7">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 7</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port8">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 8</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ml-1 mt-2 mx-auto port1 port9">
+                  <div class="hov">
+                    <p class="h3" style="color: white;">App 9</p>
+                    <p class="h6" style="color: white;">App</p>
+                    <div class="cir">
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-plus iii"></i>
+                      </div>
+                      <div class="rounded-circle mx-auto iho">
+                        <i class="fas fa-unlink iii"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container our-team">
+        <p class="h1 text-center" style="color: #5c768d">Our Team</p>
+        <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-5 col-sm-10 rounded mx-auto team-card"><div><img src="./img/team/team-1.jpg" alt=""></div>
+            <div class="member-info mx-auto w-75" style="background-color: rgba(28,92,147,.8);">
+                <h6 style="color: white;text-align: center;">Walter White</h6>
+                <hr class="mx-auto" style="border: none;outline: none;height: 2px;width: 35%;background-color: white;">
+                <p style="color: white;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chief Executive Officer</p>
+                <div class="member-links d-flex justify-content-center">
+                  <i class="fab fa-twitter" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-facebook" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-instagram" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-linkedin" style="color: white;margin-left: 10px;"></i>
+              </div>
+              </div>
+        </div>
+          <div class="col-lg-3 col-md-5 col-sm-10 rounded mx-auto team-card"><div><img src="./img/team/team-2.jpg" alt=""></div>
+            <div class="member-info mx-auto w-75" style="background-color: rgba(28,92,147,.8);">
+              <h6 style="color: white;text-align: center;">Sarah Jhonsons</h6>
+                <hr class="mx-auto" style="border: none;outline: none;height: 2px;width: 35%;background-color: white;">
+                <p style="color: white;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Product Manager</p>
+                <div class="member-links d-flex justify-content-center">
+                  <i class="fab fa-twitter" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-facebook" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-instagram" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-linkedin" style="color: white;margin-left: 10px;"></i>
+              </div>
+            </div>
+        </div>
+          <div class="col-lg-3 col-md-5 col-sm-10 rounded mx-auto team-card"><div><img src="./img/team/team-3.jpg" alt=""></div>
+            <div class="member-info mx-auto w-75" style="background-color: rgba(28,92,147,.8);">
+              <h6 style="color: white;text-align: center;">William Andersons</h6>
+                <hr class="mx-auto" style="border: none;outline: none;height: 2px;width: 35%;background-color: white;">
+                <p style="color: white;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">CTO</p>
+                <div class="member-links d-flex justify-content-center">
+                  <i class="fab fa-twitter" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-facebook" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-instagram" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-linkedin" style="color: white;margin-left: 10px;"></i>
+              </div>
+            </div>
+        </div>
+          <div class="col-lg-3 col-md-5 col-sm-10 rounded mx-auto team-card"><div><img src="./img/team/team-4.jpg" alt=""></div>
+            <div class="member-info mx-auto w-75" style="background-color: rgba(28, 92, 147,.8);">
+              <h6 style="color: white;text-align: center;">Amanda Japson</h6>
+                <hr class="mx-auto" style="border: none;outline: none;height: 2px;width: 35%;background-color: white;">
+                <p style="color: white;text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Accountant</p>
+                <div class="member-links d-flex justify-content-center">
+                  <i class="fab fa-twitter" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-facebook" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-instagram" style="color: white;margin-left: 10px;"></i>
+                  <i class="fab fa-linkedin" style="color: white;margin-left: 10px;"></i>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="container-fluid" style="background-color:#F5F9FC;">
+        <div class="container">
+          <h2 style="color: #1C5C93; text-align: center;padding-top: 10px;">Frequently Asked Questions</h2>
+          <div class="row">
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis quae. Sunt doloremque ad amet nostrum repudiandae quaerat modi beatae perferendis, repellendus autem delectus reprehenderit, iste possimus odit dicta soluta!</p>
+            </div>
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, consectetur dolorum itaque similique consequuntur iure eaque minus culpa autem. Quis pariatur corporis perferendis tempora? Totam quos deleniti quo suscipit laborum.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex voluptates ab, excepturi eos ut? Illo cupiditate facere nulla assumenda, architecto ducimus tempore ut cum iste officia nam, laudantium ipsum.</p>
+            </div>
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, necessitatibus?</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores non saepe facilis nostrum dolore fugiat, quam iste rerum ratione eos cumque facere dolor sunt, itaque molestias quas dolores accusamus assumenda.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex voluptates ab, excepturi eos ut? Illo cupiditate facere nulla assumenda, architecto ducimus tempore ut cum iste officia nam, laudantium ipsum.</p>
+            </div>
+            <div class="col-md-6 mt-4">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, necessitatibus?</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores non saepe facilis nostrum dolore fugiat, quam iste rerum ratione eos cumque facere dolor sunt, itaque molestias quas dolores accusamus assumenda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <h2 style="color: #1C5C93;text-align: center;padding-top: 10px;">Contact Us</h2>
+            <div class="row d-flex justify-content-around">
+              <div class="col-md-4 mt-3" style="height: 25vh;box-shadow: 0px 0px 7px 8px silver;">
+                <div class="contact-location mx-auto">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                  <h4 style="text-align: center;">Our Address</h4>
+                  <p style="text-align: center;">A108 Adam Street, New York, NY 535022</p>
+              </div>
+              <div class="col-md-3 mt-3" style="box-shadow: 0px 0px 7px 8px silver;">
+                <div class="contact-location mx-auto">
+                  <i class="far fa-envelope"></i>
+                </div>
+                  <h4 style="text-align: center;">Email Us</h4>
+                  <p style="text-align: center;">info@example.com <br>contact@example.com</p>
+              </div>
+              <div class="col-md-3 mt-3" style="box-shadow: 0px 0px 7px 8px silver;">
+                <div class="contact-location mx-auto">
+                  <i class="fas fa-phone-volume"></i>
+                </div>
+                  <h4 style="text-align: center;">Call Us</h4>
+                  <p style="text-align: center;">+1424534524235 <br>+122324353553</p>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-11 mt-5" style="box-shadow: 0px 0px 6px 8px silver;">
+                  <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 mt-3">
+                        <input type="text" placeholder="Your Name" style="width: 500px;height: 40px;">
+                      </div>
+                      <div class="col-md-6 mt-3">
+                        <input type="text" placeholder="Your Email" style="width: 500px;height: 40px;">
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 mt-3">
+                      <input type="text" placeholder="Subject" style="width: 93.5%;height: 40px;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 mt-3">
+                      <input type="text" placeholder="Message" style="width: 93.5%;height: 100px;">
+                    </div>                    
+                  </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-3 mt-5">
+                      <a href="#"><button class="sendbtn" style="height: 40px;width: 140px;border: none;outline: none;background-color: #1C5C93;color: white;">Send Message</button></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid footer mt-4">
+          <div class="container">
+            <div class="row p-5">
+              <div class="col-lg-3">
+                <p class="h4 text-white">Mamba</p>
+                <p class="text-white my-4 fs-6">A108 Adam Street<br>
+                  NY 535022, USA</p>
+                <p class="text-white my-0"><b>Phone:</b> +1 5589 55488 55</p>
+                <p class="text-white my-0"><b>Email:</b> info@example.com</p>
+                <div class="d-flex f-icons mt-3"><i class="fab fa-twitter"></i><i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i></div>
+              </div>
+              <div class="col-lg-3">
+                <p class="h4 text-white">Useful links</p>
+                  <ul style="list-style: none;">
+                    <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;margin-right: 10px;">></a>Home</li>
+                    <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>About Us</li>
+                    <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Services</li>
+                    <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Terms of Services</li>
+                    <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Privacy Policy</li>
+                  </ul>
+              </div>
+              <div class="col-lg-3">
+                <p class="h4 text-white">Useful links</p>
+                <ul style="list-style: none;">
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;margin-right: 10px;">></a>Home</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>About Us</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Services</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Terms of Services</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Privacy Policy</li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <p class="h4 text-white">Useful links</p>
+                <ul style="list-style: none;">
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;margin-right: 10px;">></a>Home</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>About Us</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Services</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Terms of Services</li>
+                  <li style="color: white;margin-top: 10px;"><a href="#" style="text-decoration: none;color: #1C5C93;">></a>Privacy Policy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>

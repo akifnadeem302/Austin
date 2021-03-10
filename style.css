@@ -1,0 +1,336 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#myNav ul li a 
+{
+    color: gray;
+}
+
+.div1 {
+    height: 70vh;
+}
+
+.div1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.iconf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 92, 147, .1);
+    transition: .2s;
+}
+
+.fa-gift,
+.fa-fingerprint {
+    font-size: 30px;
+    color: #1c5c93;
+    transition: .2s;
+}
+
+.iconh:hover .iconf {
+    background-color: rgba(28, 92, 147, 1);
+    transition: .2s;
+}
+
+.iconh:hover .fa-fingerprint {
+    transition: .2s;
+    color: white;
+}
+
+.iconh:hover .fa-gift {
+    color: white;
+    transition: .2s;
+}
+
+.circ {
+    width: 80px;
+    height: 80px;
+    transition-duration: .8s;
+    box-shadow: 0px 0px 5px 0px rgb(189, 189, 189);
+}
+
+.circ:hover {
+    transition: .8s;
+    box-shadow: 0px 0px 19px 0px #5098d6;
+}
+
+.ph {
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.ph:hover {
+    color: #1c5c93;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.port1 {
+    cursor: pointer;
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-1.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.port2 {
+    transition-duration: .5s;
+    background-image: url(./img/portfolio/portfolio-2.jpg);
+    transition: all transform;
+}
+
+.port3 {
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-3.jpg);
+}
+
+.hov {
+    /* transition-duration: .5s; */
+    width: 60%;
+    position: relative;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    display: none;
+}
+
+.cir {
+    display: flex;
+    justify-content: space-around;
+}
+
+.port1:hover {
+    /* transition: .5s */
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-1.jpg);
+    transform: scale(1.1);
+}
+
+.port1:hover .hov {
+    display: block;
+}
+
+.iho {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #fff;
+}
+
+.iho:hover {
+    border: none;
+    background-color: #1c5c93;
+}
+
+.iho:hover .iii {
+    color: white;
+    cursor: pointer;
+
+}
+
+.iii {
+    color: #1c5c93;
+    line-height: 40px;
+}
+
+.port2:hover {
+    /* transition: .5s */
+    cursor: pointer;
+    transition: .4s;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-2.jpg);
+    transform: scale(1.1);
+}
+.port3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-3.jpg);
+    transform: scale(1.1);
+    transition: .4s;
+}
+.port4
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-4.jpg);
+}
+.port4:hover
+{   
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-4.jpg);
+    transition: .4s;
+}
+.port5
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-5.jpg);
+}
+.port5:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-5.jpg);
+    transition: .4s;
+}
+.port6
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-6.jpg);
+}
+.port6:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-6.jpg);
+    transition: .4s;
+}
+.port7
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-7.jpg);
+}
+.port7:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-7.jpg);
+    transition: .4s;
+}
+.port8
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-8.jpg);
+}
+.port8:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-8.jpg);
+    transition: .4s;
+}
+.port9
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./img/portfolio/portfolio-9.jpg);
+}
+.port9:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./img/portfolio/portfolio-9.jpg);
+    transition: .4s;
+}
+.team1,.team2,.team3,.team4
+{
+    height: 40vh;
+    background-image: url(./img/team/team-1.jpg);
+    background-size: 100% 100%;
+    transition: .3s;
+}
+.team1:hover
+{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.team2:hover
+{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.team3:hover
+{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.team4:hover
+{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.team2
+{
+    background-image: url(./img/team/team-2.jpg);
+}
+.team3{
+    background-image: url(./img/team/team-3.jpg);
+}
+.team4{
+    background-image: url(./img/team/team-4.jpg);
+}
+our-team{
+    padding: 50px;
+}
+
+.our-team .h1{
+    color: #1C5C93;
+}
+
+.team-card{
+    position: relative;
+}
+.team-card > div
+{
+    overflow: hidden;
+}
+.team-card img{
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+.team-card:hover img
+{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.member-info
+{
+    position: relative;
+    bottom: 50px;
+}
+.contact-location
+{
+    height: 40px;
+    width: 40px;
+    border: 2px dotted #1c5c93;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.fa-map-marker-alt,.fa-envelope,.fa-phone-volume
+{
+    color: #1c5c93;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.fa-envelope
+{
+    margin-left: 6px;
+}
+::placeholder
+{
+    padding-left: 10px;
+}
+a>.sendbtn:hover
+{
+    background-color: #5098d6;
+
+}
+.footer{
+    background: #5C768D;
+}
+
+.f-icons i{
+    color: white;
+    font-size: 17px;
+    margin: 0 4px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #768FA6;
+}
+
+.f-icons i:hover{
+    background: #00A6EB;
+    cursor: pointer;
+}
